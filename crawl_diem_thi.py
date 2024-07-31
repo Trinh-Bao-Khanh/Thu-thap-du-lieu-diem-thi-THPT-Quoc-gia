@@ -69,7 +69,7 @@ def save_to_excel(data_list, filename="diem_thi.xlsx"):
     print(f"Dữ liệu đã được lưu vào file {filename} tại đường dẫn: {abs_path}")
 
 # Crawl dữ liệu cho danh sách số báo danh từ 01000001 đến 01000101
-sbd_list = [f"010{str(i).zfill(5)}" for i in range(1, 102)]
+sbd_list = [f"010{str(i).zfill(5)}" for i in range(1, 1002)]
 
 # Sử dụng ThreadPoolExecutor để tăng tốc độ crawl
 data_list = []
